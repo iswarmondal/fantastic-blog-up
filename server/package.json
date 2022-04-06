@@ -1,0 +1,28 @@
+{
+  "name": "fantastic-blog-up",
+  "version": "1.0.0",
+  "description": "This is a blog built with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iswarmondal/fantastic-blog-up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iswarmondal/fantastic-blog-up/issues"
+  },
+  "homepage": "https://github.com/iswarmondal/fantastic-blog-up#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  },
+  "type":"module"
+}
