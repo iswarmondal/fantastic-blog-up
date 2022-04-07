@@ -13,6 +13,8 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 app.use(cors())
 
+app.use("/api/blogs", blogPosts)
+
 const PORT = process.env.PORT || 5050;
 
 mongoose.connect(
